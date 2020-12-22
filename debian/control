@@ -1,0 +1,12 @@
+Source: ros-foxy-transmission-interface
+Section: misc
+Priority: optional
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ament-lint-auto, ros-foxy-ament-lint-common, ros-foxy-hardware-interface, ros-foxy-tinyxml2-vendor, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-transmission-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-hardware-interface, ros-foxy-tinyxml2-vendor, ros-foxy-ros-workspace
+Description: transmission_interface contains data structures for representing mechanical transmissions, methods for propagating values between actuator and joint spaces and tooling to support this.
