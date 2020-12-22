@@ -1,0 +1,12 @@
+Source: ros-foxy-hardware-interface
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ament-cmake-gmock, ros-foxy-ament-lint-auto, ros-foxy-ament-lint-common, ros-foxy-control-msgs, ros-foxy-pluginlib, ros-foxy-rcpputils, ros-foxy-rcutils, ros-foxy-tinyxml2-vendor, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-hardware-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-control-msgs, ros-foxy-pluginlib, ros-foxy-rcpputils, ros-foxy-rcutils, ros-foxy-tinyxml2-vendor, ros-foxy-ros-workspace
+Description: ROS2 ros_control hardware interface
