@@ -1,0 +1,34 @@
+ros-foxy-hardware-interface (0.1.1-1focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Wed, 23 Dec 2020 00:00:00 -0000
+
+ros-foxy-hardware-interface (0.1.0-1focal) focal; urgency=high
+
+  * Added starting of resources into CM and RM (#240 <https://github.com/ros-controls/ros2_control/issues/240>)
+  * Use resource manager (#236 <https://github.com/ros-controls/ros2_control/issues/236>)
+  * Use constants instead of strings in tests (#241 <https://github.com/ros-controls/ros2_control/issues/241>)
+  * resource loaning (#224 <https://github.com/ros-controls/ros2_control/issues/224>)
+  * Allocate memory for components and handles (#207 <https://github.com/ros-controls/ros2_control/issues/207>)
+  * rename command/state handles to command/state interfaces (#223 <https://github.com/ros-controls/ros2_control/issues/223>)
+  * Remodel component interfaces (#203 <https://github.com/ros-controls/ros2_control/issues/203>)
+  * adapt component parser to new xml schema (#209 <https://github.com/ros-controls/ros2_control/issues/209>)
+  * remove logical components, move hardware resources (#201 <https://github.com/ros-controls/ros2_control/issues/201>)
+  * Replace rclcpp by rcutils logging tools in hardware_interface pkg (#205 <https://github.com/ros-controls/ros2_control/issues/205>)
+  * Add a struct for Interface information, update the test URDF (#167 <https://github.com/ros-controls/ros2_control/issues/167>)
+  * Add virtual modifier to the functions of Joint and Sensor component (#178 <https://github.com/ros-controls/ros2_control/issues/178>)
+  * Hide component parser api (#157 <https://github.com/ros-controls/ros2_control/issues/157>)
+  * Remove old joint state and joint command handles (#134 <https://github.com/ros-controls/ros2_control/issues/134>)
+  * New version of component parser (#127 <https://github.com/ros-controls/ros2_control/issues/127>)
+  * Dynamic joint handles (#125 <https://github.com/ros-controls/ros2_control/issues/125>)
+  * Hardware component interfaces (#121 <https://github.com/ros-controls/ros2_control/issues/121>)
+  * Add ActuatorHandle and Implement string-based interface handle-handling using DynamicJointState message (#112 <https://github.com/ros-controls/ros2_control/issues/112>)
+  * Change Hardware return type to enum class (#114 <https://github.com/ros-controls/ros2_control/issues/114>)
+  * Replace RCUTILS_ with RCLCPP_ for logging (#62 <https://github.com/ros-controls/ros2_control/issues/62>)
+  * import hardware_interface
+  * Contributors: Andreas Klintberg, Andy Zelenak, Bence Magyar, Colin MacKenzie, Denis Štogl, Jafar Abdi, Jordan Palacios, Karsten Knese, Mateus Amarante, Matthew Reynolds, Victor Lopez, Yutaka Kondo
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Tue, 22 Dec 2020 00:00:00 -0000
+
+
