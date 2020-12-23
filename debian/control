@@ -1,0 +1,12 @@
+Source: ros-foxy-controller-interface
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ament-cmake-gtest, ros-foxy-ament-lint-auto, ros-foxy-ament-lint-common, ros-foxy-hardware-interface, ros-foxy-rclcpp-lifecycle, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-controller-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-hardware-interface, ros-foxy-rclcpp-lifecycle, ros-foxy-ros-workspace
+Description: Description of controller_interface
