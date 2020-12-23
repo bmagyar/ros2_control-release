@@ -1,0 +1,19 @@
+ros-foxy-ros2-control (0.1.1-1focal) focal; urgency=high
+
+  * Remove transmission_interface from release, add ros2cli to ros_control (#280 <https://github.com/ros-controls/ros2_control/issues/280>)
+    * Remove transmission_interface from release, add ros2cli to ros_control
+    metapackage
+    * patch
+  * Contributors: Bence Magyar
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Wed, 23 Dec 2020 00:00:00 -0000
+
+ros-foxy-ros2-control (0.1.0-1focal) focal; urgency=high
+
+  * Remove controller parameter server (#113 <https://github.com/ros-controls/ros2_control/issues/113>)
+  * Add ros2_control metapackage
+  * Contributors: Anas Abou Allaban, Bence Magyar, Karsten Knese, Matt Reynolds
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Tue, 22 Dec 2020 00:00:00 -0000
+
+
